@@ -5,10 +5,10 @@ let data = '';
 let result = 0;
 
 const calculate = () => {
-        data.split('\n').forEach((number) => {
-            result += parseInt(number);
-        });
-        return result;
+    data.split('\n').forEach((number) => {
+        result += parseInt(number);
+    });
+    return result;
 }
 
 readStream
